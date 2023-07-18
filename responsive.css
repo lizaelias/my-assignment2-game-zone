@@ -1,0 +1,20 @@
+@media screen and (max-width:476px) {
+    .nav-container,
+    .nav-items-container ul{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    
+}
+
+
+@media screen and (min-width:476px) and (max-width:992){
+    
+    .nav-container,
+    .nav-items-container ul{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+}
