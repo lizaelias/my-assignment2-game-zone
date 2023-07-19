@@ -186,6 +186,26 @@ font-weight: 700;
    
    
 }
+.relative-box{
+
+  position: relative;
+}
+.relative-box button{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.relative-box button{
+    display: none;
+}
+
+.box:hover .relative-box button {
+     display: block;
+}
+
+
 .box img{
     width: 100%;
 }
@@ -285,11 +305,24 @@ font-weight: 700;
     margin: 0 auto;
     justify-content: space-around;
     padding-top: 30px;
+
+
+}
+.dis p{
+
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+   font-weight: 500;
+
 }
 
 .copy{
      text-align: center;
      margin-top: 10px;
+     color: rgba(255, 255, 255, 0.60);
+     font-size: 16px;
+     font-weight: 500;
+
     
 
 }
@@ -320,6 +353,17 @@ font-weight: 700;
     padding-top: 7px;
     gap:10px;
     border: none;
+    
+}
+
+.btn:hover{
+    border:1px solid black;
+   
+
+
+}
+.btn:hover h3{
+    color: red;
     
 }
 
