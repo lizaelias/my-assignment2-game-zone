@@ -93,7 +93,6 @@ font-family: 'Work Sans', sans-serif;
 
 .banner-img img{
     width: 100%;
-    border: 2px solid blue;
     height: 100%;
     
 }
@@ -141,3 +140,58 @@ font-family: 'Work Sans', sans-serif;
     padding: 21px 40px;
     border: none;
 }
+
+/* card releted styls */
+
+.card-heading{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.card-title{
+    color: #0B0223;
+    font-size: 48px;
+   font-weight: 700;
+   margin-bottom: 0px;
+
+}
+.funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 48px;
+font-weight: 700;
+
+}
+
+.card-description{
+    color: #534C64;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+   
+
+}
+
+.card-container{
+    
+    
+    width: 80%;
+    margin: 0px auto;
+    display: grid;
+    margin: 50px auto 0px;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+   
+   
+}
+.box img{
+    width: 100%;
+}
+
+/* .card{
+    border: 2px solid red;
+    width: 342px;
+    height: 400px;
+} */
