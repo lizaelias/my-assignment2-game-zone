@@ -90,6 +90,33 @@
   bottom: -50px;
 
 }
+
+/* footer */
+.list-content,
+
+.dis{
+  
+    flex-wrap: wrap;
+    gap: 10px;
+    
+ }
+
+ .list-content-logo{
+  padding-top:10px;
+  flex-wrap: wrap;
+  gap: 25%;
+  
+ 
+}
+.dis{
+   
+  grid-template-columns: repeat(2, 1fr);
+  width: 90%;
+ 
+}
+
+ 
+
 }
 
 

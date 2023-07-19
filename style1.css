@@ -236,3 +236,105 @@ font-weight: 700;
     padding-top: 100px;
 }
 
+
+
+/* footer section  style here */
+
+.footer-conainer{
+    
+    background: #0B0223;
+    height: 500px;
+    margin-top: 300px;
+    color: aliceblue;
+    margin-top:0px;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+.footer-logo img{
+    width: 60px;
+    height: 50%;
+    
+    
+}
+
+.list-content{
+    
+   width: 70%; 
+   display:flex ;
+   margin: 0 auto;
+   justify-content: space-around;
+}
+
+.list-content-logo{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 40px;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.dis{
+    width: 60%; 
+    display:flex ;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.copy{
+     text-align: center;
+     margin-top: 10px;
+    
+
+}
+
+
+/* button releted syles */
+
+.buton-conainer{
+    
+   
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:10px;
+    padding: 100px   100px 10px 100px;
+    margin-top: 150px;
+    height: 350px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin-bottom:0px;
+}
+
+.btn{
+    width: 230px;
+    height: 80px;
+    border-radius: 50px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    padding-top: 7px;
+    gap:10px;
+    border: none;
+    
+}
+
+
+.btn h3{
+    color: #0B0223;
+    font-size: 20px;
+
+   font-weight: 600;
+
+}
+
+
+
+
+
+
